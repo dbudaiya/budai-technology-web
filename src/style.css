@@ -10,8 +10,7 @@
   --backdrop-color: rgba(42, 42, 42, 0.69);
 }
 header {
-  width: 100vw;
-  height: 80px;
+  height: 90px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: center;
@@ -27,14 +26,18 @@ header .logo {
   color: var(--text-color-lightest);
 }
 header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   justify-self: end;
 }
 header nav a {
-  margin: 0 22px;
+  margin: 0 28px;
   color: var(--text-color-lightest);
 }
 header nav i {
   margin-right: 44px;
+  margin-left: 24px;
   color: var(--text-color-lightest);
 }
 .glide {
@@ -183,14 +186,14 @@ header nav i {
   background-color: var(--primary-color);
   color: var(--text-color-lightest);
 }
-#showcases section .cases {
+#showcases section #cases {
   width: 100vw;
 }
-#showcases section .cases .case-item {
+#showcases section #cases .case-item {
   width: 20vw;
   height: 15vw;
 }
-#showcases section .cases .case-item img {
+#showcases section #cases .case-item img {
   height: 100%;
   object-fit: cover;
 }
@@ -340,7 +343,7 @@ footer .footer-menus .footer-menu .menu-items a {
 }
 .foots .icp-info,
 .foots .rights {
-  grid-column: -1;
+  grid-column: 1/-1;
   color: white;
 }
 .foots .scroll-to-top a {
