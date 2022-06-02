@@ -5,10 +5,13 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AppFooter: typeof import('./src/components/AppFooter.vue')['default']
     AppHeader: typeof import('./src/components/AppHeader.vue')['default']
     'Icon:bx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
     'Icon:bx:bxsMoon': typeof import('~icons/bx/bxs-moon')['default']
-    'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
+    'IconAkarIcons:chevronLeft': typeof import('~icons/akar-icons/chevron-left')['default']
+    'IconAkarIcons:chevronRight': typeof import('~icons/akar-icons/chevron-right')['default']
+    'IconAkarIcons:search': typeof import('~icons/akar-icons/search')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

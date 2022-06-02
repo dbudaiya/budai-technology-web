@@ -1,24 +1,24 @@
 {
-	"name": "@zynth/vitailse",
-	"description": "Vite starter template with TailwindCSS",
-	"version": "0.1.0",
+	"name": "budai-technology-web",
+	"description": "构建响应式商业网站",
+	"version": "0.0.11",
 	"main": "src/main.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/zynth17/vitailse.git"
+		"url": "git+https://github.com/dbudaiya/budai-technology-web.git"
 	},
 	"keywords": [
-		"vitailse",
 		"tailwindcss",
 		"vite",
-		"vitesse"
+		"TypeScript",
+		"Less"
 	],
-	"author": "Christopher Reeeve",
+	"author": "dushenyan",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/zynth17/vitailse/issues"
+		"url": "https://github.com/dbudaiya/budai-technology-web/issues"
 	},
-	"homepage": "https://github.com/zynth17/vitailse#readme",
+	"homepage": "https://github.com/dbudaiya/budai-technology-web#readme",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite-ssg build",
@@ -36,6 +36,7 @@
 		"autoprefixer": "^10.4.2",
 		"pinia": "^2.0.11",
 		"postcss": "^8.4.6",
+		"swiper": "6.7.5",
 		"tailwindcss": "^3.0.23",
 		"vue": "^3.2.31",
 		"vue-i18n": "^9.2.0-beta.30",
@@ -51,6 +52,7 @@
 		"@vue/server-renderer": "^3.2.31",
 		"critters": "^0.0.16",
 		"https-localhost": "^4.7.1",
+		"less": "^4.1.2",
 		"typescript": "^4.5.5",
 		"unplugin-auto-import": "^0.7.2",
 		"unplugin-icons": "^0.14.3",
